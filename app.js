@@ -8,7 +8,7 @@ const totalElemento = document.getElementById("total");
 const btnFinalizar = document.getElementById("finalizar-compra");
 
 // FETCH JSON
-fetch("../data/productos.json")
+fetch("productos.json")
     .then(response => response.json())
     .then(data => {
         productos = data;
